@@ -14,7 +14,7 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-    fmt.Println("file created")
+        fmt.Println("file created")
 	defer file.Close()
 
 	if err := os.Chdir("test"); err != nil {
@@ -26,7 +26,7 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-    fmt.Println("file created")
+        fmt.Println("file created")
 	defer file2.Close()
 
 	if err := os.Chmod("notes2.txt", 0644); err != nil {
