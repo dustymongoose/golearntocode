@@ -37,7 +37,7 @@ func main() {
 		log.Fatal(err)
 	}
 	
-	hostname, err:= os.Hostname()
+	hostname, err := os.Hostname()
 	if err != nil {
 		fmt.Println(err)
 		return
